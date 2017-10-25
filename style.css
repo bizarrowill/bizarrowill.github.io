@@ -1,0 +1,45 @@
+body {
+	background-color: #777;
+	color: #777;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 1024px;
+	background-color: #777;
+}
+
+.main {
+	width : 960px;
+	padding: 20px;
+	color: #777;
+	background: #ebebeb;
+}
+
+#section {
+	width : 495px;
+	padding: 20px;
+	color: #ebebeb;
+	background: #777;
+}
+
+#article {
+	width : 40%;
+	padding: 10px;
+	color: #ebebeb;
+	background: #777;
+}
+
+
+#aside {
+	width : 45%;
+	padding: 10px;
+	color: #ebebeb;
+	background: #777;
+}
+
+
+
+
