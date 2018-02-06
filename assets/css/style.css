@@ -4,7 +4,7 @@
 body {
 	margin: 0px;
 	padding: 0px;
-	background-image: url("../images/halftone.png");
+	background-image: url("../images/background.png");
 }
 
 a.menu,
@@ -36,13 +36,13 @@ h1 {
 }
 
 h2 {
-	color: #4aaaa5;
+	color: #6d6d6d;
 	font-size: 24px;
 	padding-top: 25px;
 }
 
 h3 {
-	color: #4aaaa5;
+	color: #6d6d6d;
 	font-size: 18px;
 }
 
@@ -92,7 +92,7 @@ textarea {
 }
 
 input.submission {
-	background-color: #4aaaa5;
+	background-color: #6d6d6d;
 	color: #ffffff;
 	font-weight: bold;
 	border: 0;
@@ -156,7 +156,7 @@ input.submission {
 	.pfTitle {
 		position: absolute;
 		bottom: 15px;
-		background-color: #4aaaa5;
+		background-color: #6d6d6d;
 		padding-top: 15px;
 		padding-bottom: 15px;
 		width: 100%;
@@ -165,13 +165,13 @@ input.submission {
 
 	#header {
 		margin: 0 auto;
-		background-color: #ffffff;
+		background-color: #000000;
 		border-bottom: 1px solid #cccccc;
 		width: 100%;
 	}
 
 	#headerName {
-		background-color: #4aaaa5;
+		background-color: #000000;
 		float: left;
 		padding-left: 15px;
 		padding-right: 15px;
@@ -201,13 +201,13 @@ input.submission {
 	#footer {
 
 		margin: 0 auto;
-		background-color: #666666;
+		background-color: #000000;
 		padding-top: 10px;
 		padding-bottom: 5px;
 		position: fixed;
 		bottom: 0;
 		left: 0;
-		border-top: 5px solid #4aaaa5; 
+		border-top: 5px solid #bdbdbd; 
 		width: 100%;
 	}
 
