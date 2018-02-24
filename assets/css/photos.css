@@ -1,9 +1,9 @@
-img {
+/* img {
 	width: 30%;
 	float: left;
 	margin: 1.66%;
 }
-
+*/
 p {
 	font-family: Raleway;
 	margin-left: 1.66%;
@@ -11,13 +11,12 @@ p {
 	font-weight: 800;
 	text-transform: uppercase;
 	border-bottom: 1px solid #f1f1f1;
-	width: 30%;
-	padding-bottom: 10px;
-}
+	width: 60%;
+	padding-bottom: 5px;
+} 
 
 body {
-	margin: 0px;
-	padding: 0px;
-	background-image: white;
+	padding-top: 70px;
+	
 }
 
