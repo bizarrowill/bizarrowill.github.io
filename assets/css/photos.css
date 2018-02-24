@@ -12,7 +12,7 @@ p {
 	text-transform: uppercase;
 	border-bottom: 2px solid #f1f1f1;
 	width: 30%;
-	padding-bottom: 20px;
+	padding-bottom: 10px;
 }
 
 body {
@@ -20,3 +20,4 @@ body {
 	padding: 0px;
 	background-image: white;
 }
+
