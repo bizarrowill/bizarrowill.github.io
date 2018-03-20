@@ -155,7 +155,7 @@ body { font-family: 'Open Sans', sans-serif }
 #call-to-action,
 #call-to-action-2,
 #testimonial { position: relative }
-.cta-bg { background-image: url(img/bg-2.jpg) }
+.cta-bg { background-image: url(img/bg-2.png) }
 .cta-text { color: #fff }
 .single-service {
     margin-bottom: 50px;
@@ -183,7 +183,7 @@ body { font-family: 'Open Sans', sans-serif }
 
 /* Testimonial CSS */
 
-.testimonial-bg { background-image: url(img/bg-3.jpg) }
+.testimonial-bg { background-image: url(img/bg-2.png) }
 .single-testimonial {
     color: #fff;
     position: relative;
