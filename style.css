@@ -272,13 +272,13 @@ a.tc-control:hover,
 .header .navbar-nav > li:hover > a,
 .scroll-to-bottom a:hover,
 .header .navbar-nav > li.active > a {
-    color: #e74c3c;
+    color: #2ECC40;
     transition: .3s;
 }
 .learn-more,
 .single-service:hover i.fa,
 .footer-social a,
-.form-content input[type=submit] { background-color: #e74c3c }
+.form-content input[type=submit] { background-color: #2ECC40 }
 a.tc-control:hover,
 .scroll-to-bottom a:hover,
-.single-service:hover i.fa { border-color: #e74c3c }
+.single-service:hover i.fa { border-color: #2ECC40 }
