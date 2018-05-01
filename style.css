@@ -126,7 +126,7 @@ body {
   width: 100%;
 }
 .slide-bg {
-  background-image: url(img/slide-bg.png);
+  background-image: url(img/slide-bg.jpg);
 }
 #slider .container {
   position: relative;
@@ -229,7 +229,7 @@ body {
 /* Testimonial CSS */
 
 .testimonial-bg {
-  background-image: url(img/bg-3.png);
+  background-image: url(img/bg-3.jpg);
 }
 .single-testimonial {
   color: #fff;
