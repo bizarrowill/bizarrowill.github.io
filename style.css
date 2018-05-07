@@ -290,6 +290,10 @@ div.footer-social a {
 
 /* Contact CSS */
 
+#email {
+  margin: auto;
+  text-align: center;
+}
 #googleMap {
 }
 #googleMap img {
