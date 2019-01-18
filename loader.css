@@ -1,0 +1,82 @@
+html,
+body {
+  box-sizing: border-box;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0b1110;
+  background: linear-gradient(45deg, #0b1110, #171717);
+}
+
+// TODO:  PUT ANIMATIONS ON PSEUDO ELEMENT INSTEAD
+.glowing-animation {
+  animation: glowing 17000ms infinite;
+}
+
+@keyframes glowing {
+  0% {
+    box-shadow: 0 0 -2px 1 rgba(61, 72, 70, 0.4);
+  }
+  40% {
+    box-shadow: 0 0 20px 3px rgba(61, 72, 70, 0.5);
+  }
+  60% {
+    box-shadow: 0 0 30px 3px rgba(61, 72, 70, 0.3);
+  }
+  100% {
+    box-shadow: 0 0 -10px 0 rgba(61, 72, 70, 0.2);
+  }
+}
+
+#barcodeContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: darken(#0b1110, 2);
+  padding: 0px 20px;
+  border-radius: 15px;
+  box-shadow: 0 0px 1px rgba(61, 72, 70, 0.8);
+}
+
+#barcode {
+  position: relative;
+  color: #626b5b;
+  font-family: "Libre Barcode 128 Text", cursive;
+  font-size: 5rem;
+  font-weight: 100;
+  white-space: no-wrap;
+}
+
+.animatedSpan {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  &:hover {
+    color: darkturquoise;
+  }
+}
+
+.barcodeSelected {
+  color: darkturquoise;
+}
+
+.highlighted {
+  color: aliceblue;
+  border-bottom: 1px solid darkred;
+  padding-bottom: 10px;
+  // text-shadow: 1px 1px 25px aqua;
+  text-shadow: 1px 1px 35px aqua;
+}
